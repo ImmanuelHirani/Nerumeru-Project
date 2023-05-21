@@ -1,8 +1,4 @@
 1.  Pastikan Setiap Fitur Di perbaiki Dengan Benar
 2.  Rapihkan Data base
 3.  Rapihkan Code nya sehingga menjadi Clean Code
-
 Untuk Saat ini , Hanya Disini Dlu Jika ada Perubhaan Lain nya jangan Lupa Di catat
-
-Wkwkkwkwkw
-apaan Dah
