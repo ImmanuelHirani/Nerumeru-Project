@@ -1,0 +1,33 @@
+.text-red{
+  color: red;
+}
+
+.pengiriman{
+  color: #727070;
+}
+
+.ringkasan-pembelanjaan > p{
+  color: #727070;
+}
+
+.ringkasan-pembelanjaan > p > span{
+  color: black;
+  float: right;
+}
+
+.syarat-ketentuan{
+  text-decoration: none;
+  color: red;
+}
+
+.syarat-ketentuan:hover{
+  color: #2762BE;
+}
+
+.catatan-input{
+  background-color: #E6E6E6 !important;
+}
+
+.delivery-btn{
+  background-color: #2762BE !important;
+}

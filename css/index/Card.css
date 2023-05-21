@@ -1,0 +1,10 @@
+@media screen and (max-width: 912px) {
+  .card {
+    width: 75% !important;
+    margin: auto;
+  }
+
+  .all-head {
+    text-align: center;
+  }
+}

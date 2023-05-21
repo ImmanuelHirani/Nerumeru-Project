@@ -1,0 +1,73 @@
+/* Navbar */
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600 !important;
+}
+
+.bi-cart2 {
+  font-size: 20px;
+}
+
+.nav-cart {
+  margin-right: 20px;
+}
+
+.nav-cart > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#count {
+  color: #2762be;
+}
+
+.nav-kiri {
+  margin-left: 150px;
+}
+
+.nav-signup {
+  display: flex;
+  color: white !important;
+  width: 200px;
+  height: 42px;
+  border-radius: 10px;
+  background-color: #2762be !important;
+}
+
+/* Navbar End */
+
+@media screen and (max-width: 912px) {
+  .navR {
+    margin: auto;
+  }
+
+  .nav-kiri {
+    margin: auto;
+  }
+
+  .nav-cart {
+    position: relative;
+    bottom: 10px;
+    margin: auto;
+  }
+
+  .navbar-toggler {
+    border: none !important;
+  }
+  /* Ngehilangin Border Pada saat on click */
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  /* Ngehilangin Border Pada saat on click */
+}
+
+.bg-white {
+  background: white !important;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

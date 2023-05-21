@@ -1,0 +1,29 @@
+#Testi {
+  margin-top: 100px !important;
+}
+
+.btn-ts {
+  background-color: #2762be !important;
+  position: relative;
+  top: 30px;
+}
+
+hr {
+  width: 20% !important;
+  margin: auto !important;
+}
+
+@media screen and (max-width: 912px) {
+  .btn-ts {
+    visibility: hidden !important;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .ts-head {
+    font-size: 1em;
+  }
+  .ts-head-2 {
+    font-size: 0.9em;
+  }
+}

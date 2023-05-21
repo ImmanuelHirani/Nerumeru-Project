@@ -1,0 +1,14 @@
+#rating .material-icons {
+  cursor: default;
+  font-size: 28px;
+  padding-right: 5px;
+  color: #2762be;
+}
+
+#rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* bs */
