@@ -1,0 +1,41 @@
+/* Categories */
+.btn-cat {
+  width: 140px;
+  color: #2762be !important;
+  background-color: #ffffff !important;
+
+  /* position: relative;
+    left: 75px;
+    top: 120px; */
+}
+
+.btn-cat:hover {
+  color: #ffffff !important;
+  background-color: #2762be !important;
+}
+
+.btn-catalog {
+  width: 140px;
+  color: #ffffff !important;
+  border: 2px solid white !important;
+  margin: auto;
+  position: relative;
+  bottom: 130px;
+}
+
+.btn-catalog:hover {
+  color: #ffffff !important;
+  background-color: #2762be !important;
+  border: #2762be !important;
+}
+
+.card-body {
+  margin: auto;
+}
+
+#categori {
+  margin-top: 100px;
+  margin-bottom: 100px !important;
+}
+
+/* Categories End */

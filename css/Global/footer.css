@@ -1,0 +1,18 @@
+.text-wrapper {
+  margin-left: 70px;
+}
+
+footer {
+  margin-top: 100px;
+  margin-bottom: 57px;
+}
+
+@media screen and (max-width: 912px) {
+  .text-wrapper {
+    margin: 30px 5px 20px;
+  }
+
+  footer {
+    margin-bottom: 87px;
+  }
+}

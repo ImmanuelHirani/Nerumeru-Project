@@ -1,0 +1,66 @@
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.coupon {
+  display: flex;
+}
+
+.table-container-data {
+  overflow-x: auto !important;
+}
+
+table {
+  white-space: nowrap !important;
+}
+
+.form-control {
+  width: 50% !important;
+}
+
+.coupon > button {
+  width: 30%;
+  border: none;
+  border-radius: 6px;
+  margin-left: 20px;
+  color: white;
+  font-weight: bold !important;
+  background-color: #2762be;
+}
+
+.btn-checkout {
+  width: 40%;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  border: none;
+  border-radius: 6px;
+  margin-left: 20px;
+  color: white !important;
+  background-color: #2762be !important;
+}
+
+.shipping {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 912px) {
+  .all-head {
+    text-align: center !important;
+  }
+
+  .btn-checkout {
+    font-size: 15px !important;
+  }
+}

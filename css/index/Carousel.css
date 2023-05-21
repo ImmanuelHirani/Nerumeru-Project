@@ -1,0 +1,17 @@
+/* Courasel */
+.carousel-inner {
+  border-radius: 5px !important;
+}
+
+.carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+/* Courasel End */
+
+@media screen and (max-width: 414px) {
+  .carousel-inner > .carousel-item > img {
+    height: 135px;
+  }
+}

@@ -1,0 +1,22 @@
+.shipping {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.uniqueCode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-checkout {
+  width: 40%;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  border: none;
+  border-radius: 6px;
+  margin-left: 20px;
+  color: white !important;
+  background-color: #2762be !important;
+}

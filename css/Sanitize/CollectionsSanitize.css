@@ -1,0 +1,103 @@
+/* Categories */
+.btn-cat {
+  width: 140px;
+  color: #2762be !important;
+  background-color: #ffffff !important;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  /* position: relative;
+      left: 75px;
+      top: 120px; */
+}
+
+.btn-cat:hover {
+  color: #ffffff !important;
+  background-color: #2762be !important;
+}
+
+.all-head > h1 {
+  font-weight: bold;
+}
+
+.card {
+  border: none !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-item:hover {
+  transform: translateY(-8px); /* menggeser elemen sejauh 5 piksel ke atas saat di-hover */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); /* shadow saat di-hover */
+}
+
+.card-item {
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+.card-col {
+  background-color: transparent !important;
+}
+
+/*  */
+/*  */
+
+.label-stock {
+  background-color: #2762be;
+  width: 15%;
+  border-radius: 3px;
+  position: relative;
+  left: 5px;
+  color: white;
+}
+
+.bi-star-fill {
+  color: #2762be;
+}
+
+.cart-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cart-button > a {
+  text-decoration: none !important;
+}
+
+.btn-cart {
+  width: 40%;
+  height: 40px !important;
+  background-color: #2762be !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.btn-cart:hover {
+  color: #d5d6d7 !important;
+}
+
+/*  End */
+
+@media screen and (max-width: 912px) {
+  .card-item {
+    width: 85% !important;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .card-item > .card-body > h5 {
+    font-size: 15px !important;
+  }
+
+  .label-stock {
+    font-size: 15px;
+    width: 20%;
+  }
+
+  .btn-cart {
+    width: 40%;
+    height: 15% !important;
+    font-size: 13px !important;
+  }
+
+  .all-head {
+    text-align: center !important;
+  }
+}

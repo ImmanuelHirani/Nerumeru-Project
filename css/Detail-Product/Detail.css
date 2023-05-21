@@ -1,0 +1,184 @@
+/* Categories */
+
+/*  */
+.bi-star-fill {
+  color: #2762be;
+}
+
+.cart-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cart-button > a {
+  text-decoration: none !important;
+}
+
+.btn-cart-2 {
+  width: 100%;
+  height: 50px !important;
+  background-color: #2762be !important;
+  color: rgb(255, 255, 255) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.btn-cart-2:hover {
+  color: #d5d6d7 !important;
+}
+
+.btn-cart-3 {
+  width: 100%;
+  height: 50px !important;
+  border: 1px solid lightgray !important;
+  color: rgb(0, 0, 0) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.btn-cart-3:hover {
+  color: #ffffff !important;
+  background-color: #2762be !important;
+}
+
+/*  End */
+
+.card-2 {
+  position: relative;
+  bottom: 25px;
+  background: transparent !important;
+  border: none !important;
+}
+
+.acordian-cont {
+  position: relative;
+  bottom: 40px;
+}
+
+.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+@media screen and (max-width: 1024px) {
+  .label-stock {
+    font-size: 17px;
+    width: 10% !important;
+  }
+
+  .card-2 {
+    position: relative;
+    top: 15px;
+  }
+
+  .acordian-cont {
+    position: relative;
+    top: 15px;
+  }
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.card {
+  cursor: pointer;
+  overflow: hidden;
+  border: none !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-item {
+  position: relative;
+}
+
+.card-item-img-top {
+  transition: all 0.2s ease-in-out;
+}
+
+.card-item-img-top:hover {
+  transform: scale(2.1) translate(-5px, -5px);
+}
+
+.card-small-pr {
+  background: transparent !important;
+}
+
+.btn-small-pr {
+  width: 100%;
+  color: white !important;
+  font-weight: bold !important;
+  background-color: #2762be !important;
+}
+
+.card {
+  border: none !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-item:hover {
+  transform: translateY(-8px); /* menggeser elemen sejauh 5 piksel ke atas saat di-hover */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); /* shadow saat di-hover */
+}
+
+.card-item {
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+.card-col {
+  background-color: transparent !important;
+}
+
+/*  */
+
+.bi-star-fill {
+  color: #2762be;
+}
+
+.cart-button > a {
+  text-decoration: none !important;
+  font-size: 15px;
+}
+
+.btn-cart {
+  width: 50%;
+  height: 35px !important;
+  background-color: #2762be !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.btn-cart:hover {
+  color: #d5d6d7 !important;
+}
+
+
+/*  End */
+
+@media screen and (max-width: 912px) {
+  .card-item {
+    width: 85% !important;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .card-item > .card-body > h5 {
+    font-size: 15px !important;
+  }
+
+  .label-stock {
+    font-size: 15px;
+    width: 20%;
+  }
+
+  .btn-cart {
+    width: 40%;
+    height: 15% !important;
+    font-size: 13px !important;
+  }
+
+  .all-head {
+    text-align: center !important;
+  }
+}
