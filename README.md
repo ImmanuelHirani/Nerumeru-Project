@@ -1,1 +1,1 @@
-# Nerumeru-Project
+Nerumeru Porject ini saya buat , Guna untuk belajar Lebih lanjut Terkait Pengelolan Database dan Content Manajement Pada masa perkuliahan  Dimana Nanti nya akan di lakukan nya penambahan fitur Seperti  Shopee Capit Menyelesaikan Terkait Trasaksional Data Merapihkan tampilan Memperbaiki Data base untuk Item produk Dan yang memiliki Keterkaitan Terhadap Transaksi
